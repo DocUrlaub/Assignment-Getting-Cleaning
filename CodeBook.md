@@ -44,11 +44,12 @@ DATA PROCESSING STEPS TAKEN IN run_analysis.R
 --------------------------------------------------------------
 
 In order to obtain the above data set the following steps are taken by the R Script:
-1. The original data is loaded to R for processing from the "Source Data" folder.
-2. The initial training and test data sets are recreated to include the activity number, subject number and data for all variables.
-3. The variable names "features" are loaded to a data frame and processed to match the above (Step 2.) data sets.
-4. These variable names are assigned to the data sets (Step 2. and 3.) and then the activity names are merged into the data frame in addition for both training and test data sets.
-5. Both resulting training and test data sets are combined into one data set.
+
+1. The original data is loaded to R for processing from the "Source Data" folder
+2. The initial training and test data sets are recreated to include the activity number, subject number and data for all variables
+3. The variable names "features" are loaded to a data frame and processed to match the above (Step 2.) data sets
+4. These variable names are assigned to the data sets (Step 2. and 3.) and then the activity names are merged into the data frame in addition for both training and test data sets
+5. Both resulting training and test data sets are combined into one data set
 6. The variable which contain with the MEAN or STANDARD DEVIATION measures are extracted in addition to the activity names and subject numbers
 7. A new data frame is calculated which produces the average of all measures by "activity names", "subject", and variables
 8. This resulting mean data set is extracted to a .csv file labled: "tidy_meandata.csv"
