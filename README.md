@@ -6,10 +6,10 @@ Author: Doc Urlaub
 FILES INCLUDED
 -------------------------------
 Files contained in the submission include:
-CodeBook.md : Describes the variables, the data, and any transformations or work that you performed to clean up the data.
-README.md : (this file) Described the files provided and scripts used to process the data.
-run_analysis.R : The R Script used to process the data sets and create the new tidy data set.
-tidy_meandata.csv : The resulting tidy dataset produced by the run_analysis.R script.
+- CodeBook.md : Describes the variables, the data, and any transformations or work that you performed to clean up the data.
+- README.md : (this file) Described the files provided and scripts used to process the data.
+- run_analysis.R : The R Script used to process the data sets and create the new tidy data set.
+- tidy_meandata.csv : The resulting tidy dataset produced by the run_analysis.R script.
 
 Within the folder "Source Data":
 - activity_labels.txt : The labels and mapping of those lables to the activtiy variable.
